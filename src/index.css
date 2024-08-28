@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+@media (max-width : 900px) {
+  .drawer-container{
+    position: fixed;
+    background-color: #121212;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+
+  }  
+}
+
